@@ -21,4 +21,9 @@ class PageController extends Controller
     {
         return Inertia::render('Generics/TermsAndConditions');
     }
+
+    public function showContactUs()
+    {
+        return Inertia::render('Generics/ContactUs');
+    }
 }

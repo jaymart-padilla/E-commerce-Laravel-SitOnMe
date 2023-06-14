@@ -63,6 +63,7 @@ Route::get('/products', [ProductsController::class, 'shop'])->name('shop');
 Route::get('/products/{id}', [ProductsController::class, 'show'])->name('show');
 Route::get('/about', [PageController::class, 'showAboutUs'])->name('about');
 Route::get('/return-policy', [PageController::class, 'showReturnPolicy'])->name('return-policy');
+Route::get('/contact-us', [PageController::class, 'showContactUs'])->name('contact-us');
 Route::get('/terms-and-conditions', [PageController::class, 'showTermsAndConditions'])->name('terms-and-conditions');
 
 

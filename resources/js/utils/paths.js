@@ -15,7 +15,7 @@ const paths = {
     },
 
     contact: {
-        url: "/#footer",
+        url: "/contact-us",
         text: "Contact us",
     },
 
