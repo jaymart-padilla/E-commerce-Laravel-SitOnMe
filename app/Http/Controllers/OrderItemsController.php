@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CartItems;
 use App\Models\OrderItems;
 use App\Models\Payments;
 use App\Models\Products;
@@ -94,6 +95,20 @@ class OrderItemsController extends Controller
             ];
 
             Payments::create($paymentFields);
+
+            // Check if the ordered quantity matches the quantity in the cart
+            $cartItem = CartItems::where('user_id', $userId)
+                ->where('product_id', $productId)
+                ->first();
+
+            if ($cartItem && $cartItem->quantity === $quantity) {
+                // Remove the ordered product from the cart
+                $cartItem->delete();
+            } elseif ($cartItem) {
+                // Update the quantity in the cart
+                $cartItem->quantity -= $quantity;
+                $cartItem->save();
+            }
         }
 
         return redirect('/orders')->with('message', 'Added to your orders!');
