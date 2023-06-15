@@ -15,7 +15,7 @@ class ProductsSeeder extends Seeder
     {
         Products::create([
             'category_id' => 1,
-            'name' => 'Bukkororii',
+            'name' => 'Enki',
             'description' => 'The ultimate gaming chair for your ultimate gaming experience.',
             'image' => '/images/chairs/gamingchair1.jpg',
             'price' => 299.99,
@@ -24,7 +24,7 @@ class ProductsSeeder extends Seeder
 
         Products::create([
             'category_id' => 1,
-            'name' => 'Chunchunmaru',
+            'name' => 'Iskur',
             'description' => 'The perfect chair for every gamer, whether for casual or competitive gaming.',
             'image' => '/images/chairs/gamingchair2.jpg',
             'price' => 199.99,
@@ -33,7 +33,7 @@ class ProductsSeeder extends Seeder
 
         Products::create([
             'category_id' => 2,
-            'name' => 'Komeko',
+            'name' => 'Vantum',
             'description' => 'The best chair for your office needs, with ergonomic design and adjustable features.',
             'image' => '/images/chairs/officechair1.jpg',
             'price' => 249.99,
@@ -42,7 +42,7 @@ class ProductsSeeder extends Seeder
 
         Products::create([
             'category_id' => 2,
-            'name' => 'Chomusuke',
+            'name' => 'Luna',
             'description' => 'An office chair that combines comfort and style, perfect for long hours of work.',
             'image' => '/images/chairs/officechair2.jpg',
             'price' => 179.99,
@@ -69,7 +69,7 @@ class ProductsSeeder extends Seeder
 
         Products::create([
             'category_id' => 5,
-            'name' => 'Hyoizaaburo',
+            'name' => 'Arima',
             'description' => 'A luxurious dining chair with comfortable cushion and elegant design, perfect for any dining room.',
             'image' => '/images/chairs/diningchair1.jpg',
             'price' => 149.99,
