@@ -101,7 +101,7 @@ class OrderItemsController extends Controller
                 ->where('product_id', $productId)
                 ->first();
 
-            if ($cartItem && $cartItem->quantity === $quantity) {
+            if ($cartItem && $cartItem->quantity <= $quantity) {
                 // Remove the ordered product from the cart
                 $cartItem->delete();
             } elseif ($cartItem) {
