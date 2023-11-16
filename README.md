@@ -1,4 +1,4 @@
-# E-commerce Project for ELEC 1 | SitOnMe 🪑
+# E-commerce Project for ELEC I | SitOnMe 🪑
 
 ## Setup
 
@@ -6,6 +6,18 @@
 
 -   Create a new database named `laravel_ecommerce`.
 -   Configure the database connection settings in the `.env` file.
+
+### .env File Setup
+
+-   Create a new .env file in the root directory
+-   Copy and paste .env.example contents to your .env file
+-   You can adjust .env variable values to your needs
+-   Run these commands
+
+```bash
+php artisan key:generate
+php artisan config:cache
+```
 
 ### Laravel Commands
 
