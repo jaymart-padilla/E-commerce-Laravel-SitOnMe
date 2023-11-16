@@ -53,4 +53,4 @@ Use the following credentials to access the super/head admin account:
 -   Email: SitOnMe@gmail
 -   Password: 123123123
 
-Feel free to fork this code and customize it to suit your specific needs. 🐱‍👤
+See the screenshots folder for the project preview and also feel free to fork the code and tailor it to your preferences. 🐱‍👤
