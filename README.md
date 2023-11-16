@@ -1,4 +1,4 @@
-# E-commerce Project for ELEC 1 | SitOnMe 🪑
+# E-commerce Project for ELEC I | SitOnMe 🪑
 
 ## Setup
 
