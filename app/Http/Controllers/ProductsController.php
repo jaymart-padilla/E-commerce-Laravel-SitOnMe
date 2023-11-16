@@ -47,8 +47,6 @@ class ProductsController extends Controller
         // fetch cart data
         $cartData = $this->getCartData();
 
-        // TODO: subtract to the cart for every made purchase (if it's in the cart)
-
         return Inertia::render('Welcome', [
             'canLogin' => Route::has('login'),
             'canRegister' => Route::has('register'),
