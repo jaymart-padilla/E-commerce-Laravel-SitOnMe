@@ -2,16 +2,9 @@
 
 ## Setup
 
-### Database
-
--   Create a new database named `laravel_ecommerce`.
--   Configure the database connection settings in the `.env` file.
-
-### .env File Setup
-
--   Create a new .env file in the root directory
--   Copy and paste .env.example contents to your .env file
--   You can adjust .env variable values to your needs
+-   Create a .env file in the root directory
+-   Refer to .env.example contents for your .env file
+-   Adjust .env variable values to your needs (e.g. db connections)
 -   Run these commands
 
 ```bash
