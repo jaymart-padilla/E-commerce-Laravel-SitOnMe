@@ -3,7 +3,7 @@
 ## Setup
 
 -   Create a .env file in the root directory
--   Refer to .env.example contents for your .env file
+-   Refer to .env.example for your .env file
 -   Adjust .env variable values to your needs (e.g. db connections)
 -   Run these commands
 
