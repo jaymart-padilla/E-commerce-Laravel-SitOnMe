@@ -1,7 +1,7 @@
 # SitOnMe 🪑
 
 ## About SitOnMe
-AlumTrack is an advanced alumni tracking system with integrated data analytics, exclusively tailored for the Pangasinan State University Alaminos City Campus. Serving as an engaging platform, AlumTrack fosters interactive connections between alumni and our beloved university.
+SitOnMe is a web application created for an imaginary furniture e-commerce company, primarily focusing on chairs. It incorporates all vital elements of a full-stack e-commerce platform, delivering a user-friendly and feature-rich online shopping experience.
 
 ## Pages Preview
 > Explore a glimpse of the web app with some of the selected pages.
